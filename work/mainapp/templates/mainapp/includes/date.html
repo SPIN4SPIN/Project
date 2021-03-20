@@ -1,0 +1,9 @@
+<ul class="list">
+    {% for el in number %}
+        <li class="list-item">
+            <p>{% now 'd-m-Y H:i:s' %}</p>
+            <h3>{{ date_time }}</h3>
+            <p>{{ el }}</p>
+        </li>
+    {% endfor %}
+</ul>
