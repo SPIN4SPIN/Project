@@ -1,0 +1,21 @@
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.list-item {
+    width: 450px;
+    height: 450px;
+    border: 1px solid #000;
+    display: block;
+    text-align: center;
+    padding-top: 15%;
+    box-sizing: border-box;
+    background-color: cadetblue;
+}
