@@ -1,6 +1,7 @@
 <ul class="list">
     {% for el in number %}
         <li class="list-item">
+            <p>Сумма лет = {{ sum_year }} Сумма из столбца "pop" = {{ sum_pop }}</p>
             <p>{% now 'd-m-Y H:i:s' %}</p>
             <h3>{{ date_time }}</h3>
             <p>{{ el }}</p>
